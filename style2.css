@@ -64,3 +64,29 @@ footer {
   height: 50px;
   background-color: #aaa;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .step-box {
+    width: 90%;
+    margin-top: 20px;
+  }
+  
+  .step-box:last-child {
+    margin-bottom: 20px
+    
+  }
+  
+  .title {
+    margin-top: 20px;
+  }
+}
